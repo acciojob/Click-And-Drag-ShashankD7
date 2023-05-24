@@ -26,5 +26,4 @@ const slider = document.querySelector('.items');
         const x = event.pageX - slider.offsetLeft;
         const walk = (x - startX)*2;
         slider.scrollLeft = scrollLeft - walk;
-        console.log({'x': x, 'startX': startX, 'walk' : walk})
     });
